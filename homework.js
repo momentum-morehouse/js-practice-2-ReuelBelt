@@ -5,7 +5,9 @@
 //
 // If the potential member is not in the array, return the array unchanged.
 // If the potential member is in the array, remove all instances of it from the array.
-
+function remove (nameSet , name) {
+    return nameSet.filter(person => person !== name);
+}
 // 2. Revisit your "remove" function. Make sure that it does not change the original
 // array but instead returns a new array.
 
