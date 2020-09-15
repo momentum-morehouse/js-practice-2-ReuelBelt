@@ -14,8 +14,23 @@ function remove (nameSet , name) {
 // 3. Create a function called "sum" that takes an array of numbers and
 // returns the sum of those numbers.
 
+function sum(numArray){
+    let sumOfArray = 0
+    return sumOfArray;
+}
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
+function sum(numArray) {
+    let sumOfArray = 0
+    if (numArray.length === 1){
+        sumOfArray = numArray(0)
+    }
+    else if (numArray.length > 1) {
+        for (let number of Array) {
+            sumOfArray = sumofArray + number 
+        }
+    }
+}
 
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
